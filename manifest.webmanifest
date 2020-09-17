@@ -25,7 +25,7 @@
       "short_name": "Uppgift 2",
       "description": "Main page",
       "url": "/",
-      "icons": [{ "src": "/css_small.png", "sizes": "170x240" }]
+      "icons": [{ "src": "/Uppift-2/css_small.png", "sizes": "170x240" }]
     }
   ]
 }
