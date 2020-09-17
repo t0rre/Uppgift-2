@@ -21,11 +21,11 @@
   "theme_color": "#3367D6",
   "shortcuts": [
     {
-      "name": "How's weather today?",
-      "short_name": "Today",
-      "description": "View weather information for today",
-      "url": "/today?source=pwa",
-      "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
+      "name": "Uppgift 2",
+      "short_name": "Uppgift 2",
+      "description": "Main page",
+      "url": "/",
+      "icons": [{ "src": "/css_small.png", "sizes": "170x240" }]
     }
   ]
 }
