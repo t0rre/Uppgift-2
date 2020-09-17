@@ -4,9 +4,9 @@
   "description": "Den andra uppgiften i weuweu1",
   "icons": [
     {
-      "src": "/Uppgift-2/css_large.png",
+      "src": "/Uppgift-2/css.png",
       "type": "image/png",
-      "sizes": "363x512"
+      "sizes": "512x512"
     },
     {
       "src": "/Uppgift-2/css_small.png",
@@ -25,7 +25,7 @@
       "short_name": "Uppgift 2",
       "description": "Main page",
       "url": "/",
-      "icons": [{ "src": "/Uppgift-2/css_small.png", "sizes": "170x240" }]
+      "icons": [{ "src": "/Uppgift-2/css.png", "sizes": "512x512" }]
     }
   ]
 }
