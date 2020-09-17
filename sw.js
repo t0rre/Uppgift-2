@@ -1,4 +1,4 @@
 self.addEventListener('install', function(event)
 {
-  consol.log("ok")
+  console.log("ok")
 });
