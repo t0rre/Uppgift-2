@@ -1,25 +1,28 @@
-self.addEventListener('install', function(event) {
-  event.waitUntil(
-    caches.open(cacheName).then(function(cache) {
+self.addEventListener('install', (event) => {
+   event.waitUntil(
+    caches.open("cache").then(function(cache) {
       return cache.addAll(
         [
-          '/Uppgift-2/index.html',
-          '/Uppgift-2/css_large.png',
-          '/Uppgift-2/css_small.png',
-          '/Uppgift-2/css.png',
-          '/Uppgift-2/e_uppgit.png',
-          '/Uppgift-2/index.html',
-          '/Uppgift-2/manifest.webmanifest',
-          '/Uppgift-2/script.js',
-          '/Uppgift-2/stylesheet.css',
-          '/Uppgift-2/sw.js'
+          '/Uppgift2/index.html'
         ]
       );
     })
   );
 });
-self.addEventListener('start_url', function(event)
-{
-  console.log("start_url requested")
 
+self.addEventListener('activate', (event) => {
+  console.log('Inside the activate handler:', event);
+});
+
+self.addEventListener('fetch', (event) => {
+  event.respondWith(
+    caches.open('mysite-dynamic').then(function(cache) {
+      return cache.match(event.request).then(function (response) {
+        return response || fetch(event.request).then(function(response) {
+          cache.put(event.request, response.clone());
+          return response;
+        });
+      });
+    })
+  );
 });
