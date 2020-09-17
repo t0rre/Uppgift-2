@@ -3,7 +3,7 @@ self.addEventListener('install', (event) => {
     caches.open("cache").then(function(cache) {
       return cache.addAll(
         [
-          '/Uppgift2/index.html'
+          '/Uppgift2/css.png'
         ]
       );
     })
