@@ -5,7 +5,7 @@ function afterDark()
     document.getElementById("article").style.color = "darkorchid";
     document.getElementById("afterDark").style.visibility = "hidden";
     document.getElementById("light").style.visibility = "visible";
-    document.getElementById("w3img").src = "http://jigsaw.w3.org/css-validator/images/vcss-blue";
+    document.getElementById("w3img").src = "https://jigsaw.w3.org/css-validator/images/vcss-blue";
     document.getElementById("themecolor").content = "indigo";
 }
 function light()
@@ -17,5 +17,5 @@ function light()
     document.getElementById("article").style.color = "#6c6c6c";
     document.getElementById("afterDark").style.visibility = "visible";
     document.getElementById("light").style.visibility = "hidden";
-    document.getElementById("w3img").src = "http://jigsaw.w3.org/css-validator/images/vcss";
+    document.getElementById("w3img").src = "https://jigsaw.w3.org/css-validator/images/vcss";
 }
