@@ -1,0 +1,41 @@
+En liten sida om Cascading Stylesheets
+
+Vad är CSS?
+
+CSS är ett språk som tillåter formatering av webbsidor med avseende på:
+
+Typsnitt
+Färg
+Positionerna av en sidas olika delar
+och mycket annat
+Något om färghantering i CSS
+
+När man skall ange färgen för ett element används vanligtvis hexadecimala siffror. Nedan följer en kort översättning av några vanliga färgvärden från dess decimala representation till motsvarande hexadecimala representation.
+
+Färgnamn	Decimalt (R, G, B)	Hexadecimalt (RGB)
+Röd	255, 0, 0	ff0000
+Blå	0, 0, 255	0000ff
+Svart	0, 0, 0	000000
+Vit	255, 255, 255	ffffff
+Vad är Lorem Ipsum?
+
+Lorem ipsum är en textmassa som har använts av typsättare sedan boktryckarkonstens utvecklades. 
+Syftet med denna text är att kunna göra bedömningar av layout utan att påverkas av textinnehållet.
+Denna textmassa har överlevt genom århundranden och fått en renässans i och med webbens tillkomst.
+Nedan följer ett exempel på denna textmassa.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+Nullam consectetur enim a urna luctus et scelerisque urna congue. 
+Aenean laoreet enim ac odio commodo sit amet varius arcu elementum. 
+Nam vehicula odio in lorem dictum fringilla. Cras eget lorem risus. 
+Integer accumsan semper justo vitae imperdiet. In fringilla, odio a accumsan luctus, dui turpis volutpat tortor,
+eget ullamcorper ipsum velit non turpis. Aliquam venenatis, libero eu auctor dignissim, tellus lorem placerat nisi,
+a tempus urna odio id tellus. Morbi sit amet leo quis nunc lobortis ultrices in blandit turpis. Mauris mattis, 
+arcu id gravida eleifend, purus nibh posuere dolor, vitae aliquam lacus ligula ac ipsum. 
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
+Duis nec facilisis ligula. Phasellus metus velit, ultricies vel pellentesque ac, lacinia ac turpis. 
+Aliquam scelerisque mauris at metus tempor et facilisis enim aliquam. 
+Cras volutpat justo ut tellus eleifend nec mollis ipsum porttitor.
+
+
+Validator för
